@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <style>
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  padding-top: 40px;
+}
+</style>
+ 
+</head>
+<body>
+
+<!-- <nav class="navbar navbar-inverse ">
+  <div class="container-fluid bg-primary navbar-light">
+    <div class="navbar-header ">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active text-decoration-none"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span>
+    </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav> -->
+<div class="row">
+<header>
+    <div class=" container">
+  <div class="mt-2 col">
+    <h1 style="font-size: 40px;">Furnitures</h1>
+  </div>
+  </div>
+  <nav class="col">
+    <ul class="nav nav-pills justify-content-end  mb-5" style="margin-top: -40px;">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+  </nav>
+</header>
+</div>
+
+
+<div class="container">
+
+<!-- <div class="row">
+  <div class="col-4 col-4 col-4">
+  <div class=" bg-success">
+<div class="card" style="width:500px">
+  <img class="card-img-top" src="./images/sofa.png" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">comfortable bed</h4>
+    <p class="card-text">more than 3 people can sleep freely on this bed</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+
+
+<div class="card" style="width:500px">
+  <img src="./images/sofa2.png" class="img-thumbnail" alt="...">
+  <div class="card-img-overlay">
+    <h4 class="card-title">royal sofa</h4>
+    <p class="card-text">Looks extrodinary </p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+
+
+<div class="card" style="width:500px">
+  <img class="card-img-top" src="./images/sofa3.png" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">premium sofa</h4>
+    <p class="card-text">peoples feel very premium after visiting your home</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<div class="card" style="width:500px">
+  <img class="card-img-top" src="./images/sofa4.png" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">white hose sofa</h4>
+    <p class="card-text">Comforts needs this sofa</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+<div class="card" style="width:500px">
+  <img class="card-img-top" src="./images/sofa5.png" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">red welvet sofa</h4>
+    <p class="card-text">Best way to express feeling on here </p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+<div class="card" style="width:500px">
+  <img class="card-img-top" src="./images/sofa.png" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">comfortable bed</h4>
+    <p class="card-text">more than 3 people can sleep freely on this bed</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+</div> -->
+
+<!-- <div class="row mt-3 mb-3">
+  <div class="col">
+    <div class="card" style="width: 200px;">
+  <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image" style="height: 300px;width: 200px;" >
+  <div class="card">
+    <div class="card-body">
+
+    <h4 class="card-title">comfortable bed</h4>
+    <p class="card-text">more than 3 people can sleep freely on this bed</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card"  >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfYn9ajFGwSst0bW_6y-k8KMFT-xIltPq5vQ&s" class="img-thumbnail" alt="..." style="height: 300px;width: 200px;" >
+  <div class="card">
+    <div class="card-body">
+
+    <h4 class="card-title">royal sofa</h4>
+    <p class="card-text">Looks extrodinary </p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card" >
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lddQxT8xAvpJYoZFeWPxgL8aD9WYs2JjaQ&s" alt="Card image"  style="height: 300px;width: 200px;">
+  <div class="card">
+    <div class="card-body">
+
+    <h4 class="card-title">white hose sofa</h4>
+    <p class="card-text">Comforts needs this sofa</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+  </div> -->
+
+   <div class="row mt-3 mb-3">
+  <div class="col">
+    <div class="card" >
+  <img class="image-fluid" src="./images/sofa4.png" alt="Card image" style="height: 300px; width: 300px;" >
+  
+  <div class="card" style="font-size: 30px;">
+    <div class="card-body">
+    <h4 class="card-title"style="font-size: 30px;">white hose sofa</h4>
+    <p class="card-text">Comforts needs this sofa,feel good </p>
+    <a href="#" class="btn btn-primary"style="font-size: 20px;">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card" >
+  <img class="card-img-top" src="./images/sofa5.png" alt="Card image" style="height: 300px; width: 300px;">
+  <div class="card"style="font-size: 30px;">
+    <div class="card-body">
+    <h4 class="card-title"style="font-size: 30px;">red welvet sofa </h4>
+    <p class="card-text">Best way to express feeling on here </p>
+    <a href="#" class="btn btn-primary"style="font-size: 20px;">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card" >
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lddQxT8xAvpJYoZFeWPxgL8aD9WYs2JjaQ&s" alt="Card image" style="height: 300px; width: 420px;">
+  <div class="card">
+    <div class="card-body">
+    
+    <h4 class="card-title"style="font-size: 30px;">comfortable bed</h4>
+    <p class="card-text"style="font-size: 30px;">more than 3 people can sleep freely on this bed</p>
+    <a href="#" class="btn btn-primary"style="font-size: 20px;">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+
+
+<div class="row mt-3 mb-3">
+  <div class="col " style="width: 300px;">
+    <div class="card" >
+  <img class="image-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkEiOeIsXui4nCwVKW5jX7VVDy5mfR4bNJw&s" alt="Card image" style="height: 300px;" >
+  
+  <div class="card" style="font-size: 30px;">
+    <div class="card-body">
+    <h4 class="card-title"style="font-size: 30px;">Purple hose sofa</h4>
+    <p class="card-text">Comforts needs this sofa,feel good</p>
+    <a href="#" class="btn btn-primary"style="font-size: 20px;">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+  <div class="col-1" style="width: 350px;">
+    <div class="card" >
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfYn9ajFGwSst0bW_6y-k8KMFT-xIltPq5vQ&s" alt="Card image" style="height: 300px; ">
+  <div class="card">
+    <div class="card-body">
+    <h4 class="card-title"style="font-size: 30px;">red welvet sofa</h4>
+    <p class="card-text"style="font-size: 30px;">Best way to express feeling on here </p>
+    <a href="#" class="btn btn-primary"style="font-size: 20px;">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card" >
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx12qVDsSZ1eQvvv2Q7D-W2z569Ld004dRkg&s" alt="Card image" style="height: 300px; width: 400px;">
+  <div class="card">
+    <div class="card-body">
+    
+    <h4 class="card-title"style="font-size: 30px;">comfortable bed</h4>
+    <p class="card-text"style="font-size: 30px;">more than 3 people can sleep freely on this bed</p>
+    <a href="#" class="btn btn-primary"style="font-size: 20px;">See Profile</a>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+<h1>The Best Furnitures are available here</h1>
+
+<!-- <article class="all-browsers">
+  <h1>Most Popular Browsers</h1>
+  <article class="browser">
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+  <article class="browser">
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+  <article class="browser">
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</article> -->
+
+<footer style="font-size: 20px;">
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+
+
+</div>
+  
+<!-- <div class="container">
+  <h3>Right Aligned Navbar</h3>
+  <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+</div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
